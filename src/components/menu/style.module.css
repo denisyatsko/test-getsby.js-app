@@ -1,0 +1,19 @@
+.menu {
+	display: flex;
+	list-style-type: none;
+	padding-left: 0;
+
+	& li {
+		margin: 0 10px;
+		text-transform: uppercase;
+
+		& a {
+			text-decoration: none;
+			color: #993100;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
+}
