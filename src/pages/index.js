@@ -1,7 +1,6 @@
 import React from "react";
 import { StaticQuery, graphql } from "gatsby";
 
-// import Article from "../components/article";
 import Layout from '../components/layout';
 
 const App = () => (
@@ -40,21 +39,3 @@ const App = () => (
 )
 
 export default App;
-
-//<h1>{ title }</h1>
-//<p>{ mainText }</p>
-
-
-// {
-//   allContentfulAsset(filter: { title: { eq: "some imggg" } } ) {
-//     edges {
-//       node {
-//         title
-//         file {
-//           url
-//         }
-//       }
-//     }
-//   }
-// }
-
