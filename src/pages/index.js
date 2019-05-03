@@ -4,47 +4,6 @@ import { StaticQuery, graphql } from "gatsby";
 // import Article from "../components/article";
 import Layout from '../components/layout';
 
-// const App = () => <h1>Hello</h1>;
-// 	<Layout>
-// 		<StaticQuery
-// 			query = {graphql`
-// 				{
-// 				  allContentfulMainText {
-// 				    edges {
-// 				      node {
-// 				        title
-// 				        text
-// 				        id
-// 				      }
-// 				    }
-// 				  },
-// 				  allContentfulAsset(filter: { title: { eq: "Main image" } } ) {
-// 				    edges {
-// 				      node {
-// 				        title
-// 				        file {
-// 				          url
-// 				        }
-// 				      }
-// 				    }
-// 				  }
-// 				}
-// 			`}
-// 			render = {({
-// 				allContentfulMainText: {
-// 					edges
-// 				}
-// 			}) => (
-// 	          edges.map(({ node }) => (
-// 	            <Article key = { node.id } content = { node } />
-
-// 	          ))
-	          
-// 	        )}
-// 		/>
-// 	</Layout>
-// )
-
 const App = () => (
 	<Layout>
 		<StaticQuery

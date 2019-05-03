@@ -37,5 +37,3 @@ export default () => (
 		/>
 	</Layout>
 );
-
-// <h1>Blog list page</h1>
